@@ -1,1 +1,3 @@
-# First-Year-Coursework
+For my Programming 1 module in first year the coursework was a program with many different parts, that was required to have OOP and debugging. This was completed 10/1/2021. The requirements were four pages long so I will post the full thing in a separate file.
+
+This project had a few issues. Again I had issues with loading the csv file, especially when loading information from a previous run of the program. I am also still new to OOP concepts, and so I’m sure the OOP in this could have been much more efficient. There also could have been much stricter validation rules applied to several of the user input areas.
