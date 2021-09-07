@@ -1,0 +1,66 @@
+Scenario:
+As a Python developer, you are hired by an educational organization to develop a self-service student registration program using Python 3.x.
+This system shall include the following options:
+1)	Student registration
+2)	Module selection and verification
+3)	Student account top-up
+4)	Shopping (including printing and food)
+5)	Checking Balance
+6)	Edit information
+7)	Reporting
+The program is always running, and students can register themselves in the system. To stop the program user shall enter “q” or “Q”.
+The program should save students’ information in a CSV file and reload the CSV file if the program restarted.
+
+Consider the following options (35 Points):
+•	You should use Object-oriented programming (OOP) (15 Points)
+•	Program structure, commenting, using meaningful names for variables and functions (8 Points)
+•	Errors and Exceptions handling (7 Points)
+•	Saving students’ information in a CSV file and reading the file at the start of the program (5 Points)
+
+1) Student registration: (10 Points)
+•	Students must enter their information including name, last name, phone number, email address and create a password. (4 Points)
+•	By default, the program must assign a unique student ID between 1 to 1000. (3 Points)
+•	The program should allocate 100 points to each registered student account automatically (students can use these points for shopping) (1 Point)
+•	The system must print the allocated student ID on the screen (Student uses his/her ID for access to the rest of system functions) (1 Point)
+•	The program must return to the main page. (1 Point)
+ 
+2) Module selection and verification: (10 Points)
+•	The program must authenticate the student access using student ID and password. (2 Points)
+•	Students should be able to choose two different modules out of the following modules (more than two modules is not possible):
+•	Programming 1
+•	Programming 2
+•	Networking 1
+•	Mathematics
+                                                              (5 Points)
+•	Students should be able to view their current selected modules. (2 Points)
+•	The program should allow the user to return to the main page. (1 Point)
+
+3) Student account top-up: (5 Points)
+•	The program must authenticate the student access using student ID and password. (1 Point)
+•	Students should be able to deposit points in his/her point account. The program should confirm the requested points with the user before adding them into his/her account. (3 Points)
+•	The program must return to the main page. (1 Point)
+
+4) Shopping (printing and food): (10 Points)
+•	The program must authenticate the student access using student ID and password. (1 Point)
+•	Students should be able to print and buy food from the system:
+•	Each page print (single or double) costs 0.2 points (Students can print as many as pages they want as long as they have enough points)
+•	Each food portion costs 2 points (Students can order as many as portions they like as long as they have enough points)
+                                                              (6 Points)
+•	The system should print the cost of total shopping and balance after shopping. It should generate a random number for the student as a coupon. (2 Points)
+•	The program should allow the user to return to the main page. (1 Point)
+
+
+5) Checking Balance (5 Points)
+•	The program must authenticate the student access using student ID and password. (1 Point)
+•	The program should print the student balance on the screen and return to the main page. (4 Points)
+
+6) Edit information: (10 Points)
+•	The system must authenticate the student access using student ID and password. (1 Point)
+•	The student should have the options to edit the email address, phone number and the password.  (8 Points)
+•	The program should allow the user to return to the main page. (1 Point)
+
+7) Reporting: (5 Points)
+•	The system must authenticate the student access using student ID and password. (1 Point)
+•	The program should present all the information related to the authenticated student (Except password). (4 Points)
+
+**************End of the Course Work*************
